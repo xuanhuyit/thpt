@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title class="next-head">Dev by @xuanhuyjs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" class="next-head" />
+  <meta charSet="utf-8" class="next-head" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/antd/3.2.0/antd.min.css" class="next-head" />
+  <link rel="preload" href="/thpt/js/index.js" as="script" />
+  <link rel="preload" href="/thpt/js/_app.js" as="script" />
+  <link rel="preload" href="/thpt/js/_error.js" as="script" />
+  <link rel="preload" href="/thpt/js/main-b543a1491ef14f80cfda.js" as="script" />
+</head>
+
+<body>
+  <div id="__next">
+    <div>
+      <div style="padding:20px 50px">
+        <div class="ant-row-flex ant-row-flex-start">
+          <div class="ant-col-md-8 ant-col-lg-8">
+            <h3>Đang tải dữ liệu, vui lòng chờ ....</h3>
+          </div>
+          <div class="ant-col-md-8 ant-col-lg-8">
+            <h3>
+              <div class="ant-spin ant-spin-spinning">
+                <span class="ant-spin-dot ant-spin-dot-spin">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                </span>
+              </div>
+            </h3>
+          </div>
+        </div>
+        <label>1. Chọn tỉnh: </label>
+        <div class="ant-row" style="margin:10px">
+          <div class="ant-col-lg-2"></div>
+          <div class="ant-col-lg-22">
+            <div style="width:100%" class="ant-select ant-select-disabled">
+              <div class="ant-select-selection
+            ant-select-selection--multiple" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false">
+                <div class="ant-select-selection__rendered">
+                  <div style="display:block;user-select:none;-webkit-user-select:none" unselectable="on" class="ant-select-selection__placeholder">Chọn tỉnh muốn xem</div>
+                  <ul>
+                    <li class="ant-select-search ant-select-search--inline">
+                      <div class="ant-select-search__field__wrap">
+                        <input autoComplete="off" value="" disabled="" class="ant-select-search__field" />
+                        <span class="ant-select-search__field__mirror"> </span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <label>2. Nhập điểm</label>
+        <div class="ant-row-flex ant-row-flex-space-around" style="margin-left:-8px;margin-right:-8px">
+          <div style="padding-left:8px;padding-right:8px;margin:10px" class="gutter-row ant-col-md-5 ant-col-lg-5">
+            <div class="gutter-box">
+              <input type="text" disabled="" name="A" placeholder="Nhập điểm khối A" class="ant-input ant-input-disabled" />
+            </div>
+          </div>
+          <div style="padding-left:8px;padding-right:8px;margin:10px" class="gutter-row ant-col-md-5 ant-col-lg-5">
+            <div class="gutter-box">
+              <input type="text" disabled="" name="B" placeholder="Nhập điểm khối B" class="ant-input ant-input-disabled" />
+            </div>
+          </div>
+          <div style="padding-left:8px;padding-right:8px;margin:10px" class="gutter-row ant-col-md-5 ant-col-lg-5">
+            <div class="gutter-box">
+              <input type="text" disabled="" name="A1" placeholder="Nhập điểm khối A1" class="ant-input ant-input-disabled"
+              />
+            </div>
+          </div>
+          <div style="padding-left:8px;padding-right:8px;margin:10px" class="gutter-row ant-col-md-5 ant-col-lg-5">
+            <div class="gutter-box">
+              <input type="text" disabled="" name="D14" placeholder="Nhập điểm khối D14" class="ant-input ant-input-disabled"
+              />
+            </div>
+          </div>
+        </div>
+        <label>3. Xem kết quả</label>
+        <div data-show="true" class="ant-alert ant-alert-success ant-alert-no-icon">
+          <span class="ant-alert-message">Kết quả tại: Các Tỉnh Miền Nam</span>
+          <span class="ant-alert-description"></span>
+        </div>
+        <div class="ant-row-flex ant-row-flex-start" style="margin:10px">
+          <div class="ant-col-md-5 ant-col-lg-5">
+            <button disabled="" type="button" class="ant-btn ant-btn-primary">
+              <span>BẤM XEM KẾT QUẢ</span>
+            </button>
+          </div>
+          <div class="ant-col-md-19 ant-col-lg-19"></div>
+        </div>
+        <br/>
+      </div>
+      <div class="ant-table-wrapper">
+        <div class="ant-spin-nested-loading">
+          <div>
+            <div class="ant-spin ant-spin-spinning ant-table-without-pagination ant-table-spin-holder">
+              <span class="ant-spin-dot ant-spin-dot-spin">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </span>
+            </div>
+          </div>
+          <div class="ant-spin-container ant-spin-blur">
+            <div class="ant-table ant-table-default ant-table-empty ant-table-scroll-position-left">
+              <div class="ant-table-content">
+                <div class="ant-table-body">
+                  <table class="">
+                    <colgroup>
+                      <col/>
+                      <col/>
+                      <col/>
+                      <col/>
+                      <col/>
+                      <col/>
+                      <col/>
+                      <col/>
+                      <col/>
+                      <col/>
+                      <col/>
+                      <col/>
+                      <col/>
+                    </colgroup>
+                    <thead class="ant-table-thead">
+                      <tr>
+                        <th class="">
+                          <span>SBD</span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>A
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>B
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>A1
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>D
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>D14
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>Toán
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>Hóa
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>Lý
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>Sinh
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>Ngoại Ngữ
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>Lịch Sử
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                        <th class="ant-table-column-has-filters">
+                          <span>Ngữ Văn
+                            <div class="ant-table-column-sorter">
+                              <span class="ant-table-column-sorter-up off" title="↑">
+                                <i class="anticon anticon-caret-up"></i>
+                              </span>
+                              <span class="ant-table-column-sorter-down off" title="↓">
+                                <i class="anticon anticon-caret-down"></i>
+                              </span>
+                            </div>
+                          </span>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody class="ant-table-tbody"></tbody>
+                  </table>
+                </div>
+                <div class="ant-table-placeholder"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="__next-error"></div>
+  <script>
+    __NEXT_DATA__ = { "props": { "pageProps": {} }, "page": "/", "pathname": "/", "query": {}, "buildId": "31a3d3d4-69e8-4246-b240-c588b3d1b436", "assetPrefix": "/thpt", "nextExport": true, "err": null, "chunks": [] }
+    module = {}
+    __NEXT_LOADED_PAGES__ = []
+    __NEXT_LOADED_CHUNKS__ = []
+
+    __NEXT_REGISTER_PAGE = function (route, fn) {
+      __NEXT_LOADED_PAGES__.push({ route: route, fn: fn })
+    }
+
+    __NEXT_REGISTER_CHUNK = function (chunkName, fn) {
+      __NEXT_LOADED_CHUNKS__.push({ chunkName: chunkName, fn: fn })
+    }
+
+    false
+  </script>
+  <script async="" id="__NEXT_PAGE__/" src="/thpt/js/index.js"></script>
+  <script async="" id="__NEXT_PAGE__/_app" src="/thpt/js/_app.js"></script>
+  <script async="" id="__NEXT_PAGE__/_error" src="/thpt/js/_error.js"></script>
+  <script src="/thpt/js/main-b543a1491ef14f80cfda.js" async=""></script>
+</body>
+
+</html>

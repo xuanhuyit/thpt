@@ -1,0 +1,1 @@
+module.exports=__NEXT_REGISTER_PAGE("/data_provinces",function(){return{page:webpackJsonp([5],{292:function(e,n,o){e.exports=o(71)}},[292]).default}});
